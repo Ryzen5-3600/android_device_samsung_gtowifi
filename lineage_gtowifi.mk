@@ -23,6 +23,6 @@ BOARD_VENDOR := samsung
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 ifneq ($(SIGN_BUILD), true)
 PRODUCT_BUILD_PROP_OVERRIDES += \
-	BUILD_FINGERPRINT=samsung/gtowifi/gtowifi:10/QP1A.190711.020/T290XXU3BTI2:user/release-keys
+	BUILD_FINGERPRINT=samsung/gtowifi/gtowifi:10/QP1A.190711.020/T290XXU3BTI2:userdebug/release-keys
 	PRIVATE_BUILD_DESC="gtowifi-userdebug 10 QP1A.190711.020 T290XXU3BTI2 release-keys"
 endif
