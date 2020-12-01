@@ -1,8 +1,8 @@
-DEVICE_PATH := device/samsung/gto
+DEVICE_PATH := device/samsung/gtowifi
 BOARD_VENDOR := samsung
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2020-07-01
+VENDOR_SECURITY_PATCH := 2020-09-01
 
 # HIDL
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
